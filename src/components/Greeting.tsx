@@ -1,3 +1,5 @@
+"use client";
+
 import SocialLinks from "@components/Greeting/SocialLinks";
 import DownArrows from "@assets/ArrowDownIcon.svg";
 
@@ -16,9 +18,17 @@ export default function Greeting() {
 
       <SocialLinks />
 
-      <a href="/#about" className="mt-[8rem]">
+      <button
+        className="mt-[8rem] cursor-pointer"
+        onClick={() => {
+          const aboutSection = document.getElementById("about");
+          aboutSection?.scrollIntoView({
+            behavior: "smooth",
+          });
+        }}
+      >
         <DownArrows />
-      </a>
+      </button>
     </section>
   );
 }

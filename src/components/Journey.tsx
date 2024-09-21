@@ -1,10 +1,25 @@
+import Timeline from "./Journey/Timeline";
+import ExternalLinkIcon from "@assets/ExternalLinkIcon.svg";
+
 export default function Journey() {
   return (
-    <section className="pt-[20rem] flex flex-start snap-start" id="journey">
-      <h2 className="min-w-[30%] text-left text-inter text-[4rem] text-primary font-bold whitespace-nowrap">
-        My Journey
-      </h2>
-      <div className="min-w-[60%] text-[1.5rem] grow"></div>
+    <section
+      className="pt-[20rem] max-w-[50vw] flex items-start justify-between gap-[1.5rem]"
+      id="journey"
+    >
+      <div className="sticky top-[4.5rem] min-w-[30%] h-fit font-inter font-bold whitespace-nowrap">
+        <h2 className="mb-[1rem] text-left text-inter text-[4rem] text-primary">
+          My Journey
+        </h2>
+        <a
+          className="w-fit flex items-center gap-[0.5rem] transition-all duration-150 ease-in-out hover:text-textHighlight"
+          href="#"
+        >
+          <p className="">View Full Résumé</p>
+          <ExternalLinkIcon />
+        </a>
+      </div>
+      <Timeline />
     </section>
   );
 }
