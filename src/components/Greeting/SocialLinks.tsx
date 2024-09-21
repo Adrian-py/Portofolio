@@ -6,7 +6,7 @@ export default function SocialLinks() {
   return (
     <div className="flex gap-[1.5rem] text-primary">
       <a
-        href="https://www.linkedin.com/feed/"
+        href="https://www.linkedin.com/in/adrian-hartanto-dev/"
         className="w-[3rem] aspect-square border-[2px] border-primary rounded-full flex items-center justify-center transition-all duration-150 ease-in-out hover:bg-primary hover:text-background"
       >
         <LinkedinIcon />
