@@ -1,6 +1,6 @@
 import LinkedinIcon from "@assets/LinkedinIcon.svg";
 import GithubIcon from "@assets/GithubIcon.svg";
-import InstagramIcon from "@assets/InstagramIcon.svg";
+import EmailIcon from "@assets/EmailIcon.svg";
 
 export default function SocialLinks() {
   return (
@@ -18,10 +18,10 @@ export default function SocialLinks() {
         <GithubIcon className="cursor-pointer" />
       </a>
       <a
-        href="https://www.instagram.com/ian__har/"
+        href="mailto:adrianhartanto@gmail.com"
         className="w-[3rem] aspect-square border-[2px] border-primary rounded-full flex items-center justify-center transition-all duration-150 ease-in-out hover:bg-primary hover:text-background"
       >
-        <InstagramIcon className="cursor-pointer" />
+        <EmailIcon className="cursor-pointer" />
       </a>
     </div>
   );

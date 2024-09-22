@@ -1,0 +1,26 @@
+[
+  {
+    "name": "University Enrollment",
+    "location": "Bina Nusantara University",
+    "start": "August 2020",
+    "end": "November 2024 (Expected)"
+  },
+  {
+    "name": "Frontend Engineer Intern",
+    "location": "DOT Indonesia",
+    "start": "October 2022",
+    "end": "January 2023"
+  },
+  {
+    "name": "Student Exchange",
+    "location": "Dankook University",
+    "start": "February 2023",
+    "end": "June 2023"
+  },
+  {
+    "name": "Software Development Engineer Intern",
+    "location": "GDP Labs",
+    "start": "September 2023",
+    "end": "February 2024"
+  }
+]

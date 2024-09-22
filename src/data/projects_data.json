@@ -1,0 +1,44 @@
+[
+  {
+    "name": "ScriptPad",
+    "tags": ["Rust"],
+    "repository_link": "https://github.com/Adrian-py/ScriptPad",
+    "description": "Terminal based text editor built entirely using Rust."
+  },
+  {
+    "name": "FortifyWallet",
+    "tags": [
+      "Typescript/Javascript",
+      "NextJS",
+      "NodeJS",
+      "Express",
+      "Tailwind"
+    ],
+    "repository_link": "https://github.com/Adrian-py/FortifyWallet",
+    "description": "Originally built as an implementation part of my final thesis, Fortify wallet is a web-based custodial Hierarchical Deterministic wallet for Bitcoin built specifically for organizational use case."
+  },
+  {
+    "name": "NeatStart",
+    "tags": ["Typescript/Javascript", "React", "SCSS"],
+    "repository_link": "https://github.com/Adrian-py/NeatStart",
+    "description": "A chrome extension built to replace the 'new tab' page inside common chrome browsers"
+  },
+  {
+    "name": "Moviz",
+    "tags": ["Typescript/Javascript", "NextJS", "Tailwind"],
+    "repository_link": "https://github.com/Adrian-py/Moviz",
+    "description": "Movie database displaying upcoming and current movies, utilizing the TMDB API."
+  },
+  {
+    "name": "testyourknowledge.com",
+    "tags": ["Javascript", "React", "Express", "MongoDB"],
+    "repository_link": "https://github.com/Adrian-py/testyourknowledge.com",
+    "description": "Quiz game based on 10 true or false questions, retrieved from the Open Trivia Database."
+  },
+  {
+    "name": "RockPaperScissors",
+    "tags": ["Javascript", "React", "SCSS"],
+    "repository_link": "https://github.com/Adrian-py/RockPaperScissors",
+    "description": "Rock paper scissors game built in React."
+  }
+]

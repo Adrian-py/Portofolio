@@ -12,7 +12,7 @@ export default function Navbar() {
         </li>
         <li>
           <a
-            href="#"
+            href="#projects"
             className="transition-all duration-150 ease-in-out hover:text-textHighlight hover:scale-[1.1]"
           >
             Projects
@@ -20,7 +20,7 @@ export default function Navbar() {
         </li>
         <li>
           <a
-            href="#"
+            href="#contact"
             className="transition-all duration-150 ease-in-out hover:text-textHighlight hover:scale-[1.1]"
           >
             Contact
