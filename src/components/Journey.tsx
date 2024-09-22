@@ -4,7 +4,7 @@ import ExternalLinkIcon from "@assets/ExternalLinkIcon.svg";
 export default function Journey() {
   return (
     <section
-      className="pt-[20rem] max-w-[50vw] flex items-start justify-between gap-[1.5rem]"
+      className="pt-[20rem] w-full flex items-start justify-between gap-[1.5rem]"
       id="journey"
     >
       <div className="sticky top-[4.5rem] min-w-[30%] h-fit font-inter font-bold whitespace-nowrap">

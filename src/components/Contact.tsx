@@ -6,9 +6,9 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="pt-[20rem] pb-[40rem] w-full max-w-[50vw] flex items-start justify-between gap-[1.5rem] snap-start"
+      className="pt-[20rem] pb-[40rem] w-full flex items-start justify-between gap-[1.5rem] snap-start"
     >
-      <h2 className="min-w-[30%] h-fit text-left text-inter text-[4rem] text-primary font-inter font-bold">
+      <h2 className="min-w-[30%] h-fit text-left text-inter text-[4rem] text-primary font-inter font-bold whitespace-nowrap">
         Contact Me
       </h2>
 

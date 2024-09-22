@@ -13,7 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="bg-[linear-gradient(45deg,_#1C1C21_0%,_#27272E_100%)] bg-cover text-text font-roboto">
+      <body className="bg-background text-text font-roboto h-screen overflow-y-scroll overflow-x-hidden">
         {children}
       </body>
     </html>

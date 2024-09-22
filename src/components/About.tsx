@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <section
-      className="pt-[20rem] w-full max-w-[50vw] flex items-start justify-between gap-[1.5rem] snap-start"
+      className="pt-[20rem] w-full flex items-start justify-between gap-[1.5rem] snap-start"
       id="about"
     >
       <h2 className="min-w-[30%] w-fit text-left text-inter text-[4rem] text-primary font-inter font-bold whitespace-nowrap">
