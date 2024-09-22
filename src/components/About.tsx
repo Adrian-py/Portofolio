@@ -1,13 +1,13 @@
 export default function About() {
   return (
     <section
-      className="pt-[20rem] w-full flex items-start justify-between gap-[1.5rem] snap-start"
+      className="pt-[10rem] px-[10%] w-full flex flex-col items-start justify-between gap-[1.5rem] tabletHor:flex-row tabletHor:pt-[20rem] desktopS:px-0"
       id="about"
     >
-      <h2 className="min-w-[30%] w-fit text-left text-inter text-[4rem] text-primary font-inter font-bold whitespace-nowrap">
+      <h2 className="min-w-[30%] w-fit text-left text-inter text-[2.5rem] text-primary font-inter font-bold whitespace-nowrap snap-start desktopS:text-[3rem] desktopXl:text-[4rem]">
         About Me
       </h2>
-      <p className="min-w-[60%] text-[1.25rem] text-justify grow">
+      <p className="min-w-[60%] text-justify grow desktopS:text-[1.25rem]">
         My journey started in 2020, initially learning about web development
         particularly frontend development utilizing plain HTML, CSS, and
         Javascript. Overtime, I started to get interested in algorithms, where I

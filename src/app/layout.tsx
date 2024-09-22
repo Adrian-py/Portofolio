@@ -13,9 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="bg-background text-text font-roboto h-screen overflow-y-scroll overflow-x-hidden">
-        {children}
-      </body>
+      <body className="bg-background text-text font-roboto">{children}</body>
     </html>
   );
 }
