@@ -17,9 +17,10 @@ export default function Greeting() {
       </h2>
 
       <SocialLinks />
+      <div className="mb-[8rem] tabletVert:hidden"></div>
 
       <button
-        className="mt-[8rem] cursor-pointer"
+        className="mt-[8rem] cursor-pointer hidden tabletVert:block"
         onClick={() => {
           const aboutSection = document.getElementById("about-title");
           aboutSection?.scrollIntoView({
