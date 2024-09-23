@@ -10,9 +10,7 @@ import { useEffect, useRef, useState } from "react";
 import MobileNav from "@/components/MobileNav";
 
 export default function Home() {
-  const [currentSection, setCurrentSection] = useState<string | null>(
-    "Greeting"
-  );
+  const [currentSection, setCurrentSection] = useState<string | null>(null);
   const mainRef = useRef<HTMLElement | null>(null);
 
   useEffect(() => {

@@ -26,7 +26,7 @@ export default function Projets() {
         {projectsData.map((project) => {
           return (
             <div
-              className="w-full transition-all duration-150 ease-in-out hover:scale-[1.025]"
+              className="w-full transition-all duration-150 ease-in-out hover:scale-[1.025] hover:drop-shadow-textGlow"
               key={project.name}
             >
               <h4

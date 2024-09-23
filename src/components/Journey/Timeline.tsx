@@ -21,7 +21,7 @@ export default function Timeline() {
                 <div className="w-[0.25rem] min-h-[20rem] bg-text opacity-[0.25] z-[-1]"></div>
               )}
             </div>
-            <div className="relative -top-[1.5rem] h-fit transition-all duration-150 cursor-pointer hover:scale-[1.025] hover:text-textHighlight">
+            <div className="relative -top-[1.5rem] h-fit transition-all duration-150 cursor-pointer hover:scale-[1.025] hover:text-textHighlight hover:drop-shadow-textGlow">
               <h4 className="text-[1.5rem] font-inter font-bold tabletVert:text-[2rem]">
                 {exp.name}
               </h4>

@@ -11,12 +11,15 @@ const config: Config = {
       colors: {
         primary: "#FF9E67",
         background: "#1C1C21",
-        text: "#BEBEBE",
-        textHighlight: "#F4F5F5",
+        text: "#d1cfcf",
+        textHighlight: "#ffff",
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
         roboto: ["Roboto", "sans-serif"],
+      },
+      dropShadow: {
+        textGlow: "0 0px 40px rgba(255,255,255,0.2)",
       },
       screens: {
         desktopXl: "1920px",

@@ -12,7 +12,7 @@ export default function Journey() {
           My Journey
         </h2>
         <a
-          className="w-fit flex items-center gap-[0.5rem] transition-all duration-150 ease-in-out hover:text-textHighlight"
+          className="w-fit flex items-center gap-[0.5rem] transition-all duration-150 ease-in-out hover:text-textHighlight hover:drop-shadow-textGlow"
           href="/resume.pdf"
         >
           <p className="">View Full Résumé</p>
