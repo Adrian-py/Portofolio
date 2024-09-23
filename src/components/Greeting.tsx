@@ -21,7 +21,7 @@ export default function Greeting() {
       <button
         className="mt-[8rem] cursor-pointer"
         onClick={() => {
-          const aboutSection = document.getElementById("about");
+          const aboutSection = document.getElementById("about-title");
           aboutSection?.scrollIntoView({
             behavior: "smooth",
           });

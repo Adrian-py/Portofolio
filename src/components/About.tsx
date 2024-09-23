@@ -4,7 +4,10 @@ export default function About() {
       className="pt-[10rem] px-[10%] w-full flex flex-col items-start justify-between gap-[1.5rem] tabletHor:flex-row tabletHor:pt-[20rem] desktopS:px-0"
       id="about"
     >
-      <h2 className="min-w-[30%] w-fit text-left text-inter text-[2.5rem] text-primary font-inter font-bold whitespace-nowrap snap-start desktopS:text-[3rem] desktopXl:text-[4rem]">
+      <h2
+        className="min-w-[30%] w-fit text-left text-inter text-[2.5rem] text-primary font-inter font-bold whitespace-nowrap snap-start desktopS:text-[3rem] desktopXl:text-[4rem]"
+        id="about-title"
+      >
         About Me
       </h2>
       <p className="min-w-[60%] text-justify grow desktopS:text-[1.25rem]">

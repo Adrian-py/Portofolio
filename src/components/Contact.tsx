@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="pt-[10rem] px-[10%] pb-[20rem] w-full flex flex-col items-start justify-between gap-[1.5rem] snap-start tabletHor:flex-row tabletHor:pt-[20rem] tabletHor:flex-row tabletHor:pt-[20rem] desktopS:px-0"
+      className="pt-[10rem] px-[10%] pb-[15rem] w-full flex flex-col items-start justify-between gap-[1.5rem] snap-start tabletHor:flex-row tabletHor:pt-[20rem] tabletHor:flex-row tabletHor:pt-[20rem] tabletHor:pb-[20rem] desktopS:px-0"
     >
       <h2 className="min-w-[30%] h-fit text-left text-inter text-[2.5rem] text-primary font-inter font-bold whitespace-nowrap desktopS:text-[3rem] desktopXl:text-[4rem]">
         Contact Me

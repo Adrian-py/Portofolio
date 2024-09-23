@@ -7,7 +7,7 @@ export default function SocialLinks() {
     <div className="flex gap-[1.5rem] text-primary">
       <a
         href="https://www.linkedin.com/in/adrian-hartanto-dev/"
-        className="w-[2.5rem] p-[0.6rem] aspect-square border-[1px] border-primary rounded-full flex items-center justify-center transition-all duration-150 ease-in-out hover:bg-primary hover:text-background desktopS:w-[3rem] desktopS:border-[1px]"
+        className="w-[2.5rem] p-[0.75rem] aspect-square border-[1px] border-primary rounded-full flex items-center justify-center transition-all duration-150 ease-in-out hover:bg-primary hover:text-background desktopS:w-[3rem] desktopS:border-[1px]"
       >
         <LinkedinIcon className="w-full" />
       </a>
