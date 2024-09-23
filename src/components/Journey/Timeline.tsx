@@ -18,7 +18,7 @@ export default function Timeline() {
             <div className="mr-[2rem] flex items-center flex-col tabletVert:mr-[4rem]">
               <div className="w-[1rem] aspect-square bg-text rounded-full"></div>
               {ind != myJourney.length - 1 && (
-                <div className="w-[0.25rem] min-h-[20rem] bg-text opacity-[0.25]"></div>
+                <div className="w-[0.25rem] min-h-[20rem] bg-text opacity-[0.25] z-[-1]"></div>
               )}
             </div>
             <div className="relative -top-[1.5rem] h-fit transition-all duration-150 cursor-pointer hover:scale-[1.025] hover:text-textHighlight">

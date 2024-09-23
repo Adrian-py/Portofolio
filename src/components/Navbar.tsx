@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <nav className="mt-[4rem] sticky top-0 w-screen h-[4rem] flex items-center backdrop-blur-md transition-all ease-in-out duration-150">
+    <nav className="mt-[4rem] sticky top-0 w-screen h-[4rem] flex items-center backdrop-blur-md transition-all ease-in-out duration-150 hidden tabletVert:flex">
       <ul className="m-auto w-fit flex gap-[4vw]">
         <li>
           <a
