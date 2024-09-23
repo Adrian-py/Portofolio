@@ -1,13 +1,14 @@
 "use client";
 
+import { useEffect, useRef, useState } from "react";
+
 import Navbar from "@components/Navbar";
+import MobileNav from "@components/MobileNav";
 import Greeting from "@components/Greeting";
 import About from "@components/About";
 import Journey from "@components/Journey";
 import Contact from "@components/Contact";
 import Projects from "@components/Projects";
-import { useEffect, useRef, useState } from "react";
-import MobileNav from "@/components/MobileNav";
 
 export default function Home() {
   const [currentSection, setCurrentSection] = useState<string | null>(null);
@@ -20,7 +21,10 @@ export default function Home() {
     }
 
     const mainScrollListener = () => {
+      const windowHeight = window.screen.height;
       const currentScrollPosition = currentMainRef.scrollTop;
+      const currentVisibleSectionThreshold =
+        currentScrollPosition + windowHeight / 2;
       const aboutSectionVertOffset =
         document.getElementById("about")?.offsetTop;
       const journeySectionVertOffset =
@@ -32,22 +36,22 @@ export default function Home() {
 
       if (
         contactSectionVertOffset != undefined &&
-        currentScrollPosition >= contactSectionVertOffset
+        currentVisibleSectionThreshold >= contactSectionVertOffset
       ) {
         setCurrentSection("Contact");
       } else if (
         projectsSectionVertOffset != undefined &&
-        currentScrollPosition >= projectsSectionVertOffset
+        currentVisibleSectionThreshold >= projectsSectionVertOffset
       ) {
         setCurrentSection("Projects");
       } else if (
         journeySectionVertOffset != undefined &&
-        currentScrollPosition >= journeySectionVertOffset
+        currentVisibleSectionThreshold >= journeySectionVertOffset
       ) {
         setCurrentSection("My Journey");
       } else if (
         aboutSectionVertOffset != undefined &&
-        currentScrollPosition >= aboutSectionVertOffset
+        currentVisibleSectionThreshold >= aboutSectionVertOffset
       ) {
         setCurrentSection("About");
       } else {
